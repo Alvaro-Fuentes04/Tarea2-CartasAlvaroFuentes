@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exploding Cards - Diseño</title>
+  <link rel=stylesheet href=./src/css/style.css>
+  <script src="./src/js/script.js" defer>
+  </script>
+</head>
+
+<body>
+  <div>
+    <select id="tipoCarta">
+      <option value="Bomba">Bombas</option>
+      <option value="Desactivacion">Desactivaciones</option>
+      <option value="SaltarTurno">Saltar Turno</option>
+      <option value="Denegar">Denegar</option>
+      <option value="Puntos">Puntos</option>
+    </select>
+    <button class="button-52" onclick="showCard()">Mostrar Carta</button>
+  </div>
+
+  <div id="cartaContainer"></div>
+</body>
+
+</html>
